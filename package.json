@@ -1,0 +1,19 @@
+{
+  "name": "greeter-bot",
+  "version": "1.0.0",
+  "description": "Worlds Best Bot",
+  "main": "bot.js",
+  "author": "DJT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "node-cache": "^4.2.0",
+    "node-fetch": "^2.1.2",
+    "request": "^2.87.0",
+    "string-format": "^2.0.0",
+    "winston": "^2.4.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
