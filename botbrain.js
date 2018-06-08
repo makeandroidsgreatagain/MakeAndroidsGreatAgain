@@ -32,5 +32,5 @@ module.exports.cw = function(symbol) {
 }
 
 module.exports.es = function() {
-  return 'https://finviz.com/fut_chart.ashx?t=ES&p=m5'
+  return 'https://finviz.com/fut_chart.ashx?t=ES&p=m5&maga'
 }
