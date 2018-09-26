@@ -19,6 +19,10 @@ client.on('message', msg => {
   if (msg.content.toLowerCase().includes("maga")) {
     msg.react("🇺🇸")
   }
+  
+  if (msg.content.toLowerCase().includes("conde")) {
+    msg.react("conde")
+  }
 
   if (msg.content.indexOf(prefix) !== 0) return;
 
